@@ -1,0 +1,264 @@
+@media(max-width:1643px) {
+    .banner>div:last-child img {
+        position: static;
+        width: 100%;
+    }
+    .row h2 {
+        right: 62px;
+    }
+    .headernbanner,
+    .allbrands,
+    .gallery_container,
+    .comments,
+    footer {
+        padding: 0px 12px;
+    }
+    .about_us {
+        padding: 0px 59px;
+    }
+}
+
+@media(max-width:1300px) {
+    .ftrlst {
+        display: none;
+    }
+    footer {
+        margin-top: 40px;
+    }
+    footer>div {
+        justify-content: space-around;
+        padding: 50px 0px !important;
+    }
+    .banner {
+        display: block;
+    }
+    .banner>div:first-child {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner>div:first-child h1 {
+        margin: 0 auto;
+    }
+    .banner>div:last-child {
+        display: none;
+    }
+    .bannerreview {
+        justify-content: center;
+    }
+    .banner>div:first-child>h1 span {
+        right: 43px;
+    }
+}
+
+@media(max-width: 1022px) {
+    .checkbtn {
+        display: block;
+        right: 12px;
+        filter: invert(1);
+    }
+    .nav_ul {
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+        position: absolute;
+        padding-bottom: 30px;
+        top: 92px;
+        text-align: center;
+        left: -100%;
+        transition: all 0.5s ease;
+        background-color: black;
+        flex-flow: column;
+        z-index: 99999;
+        height: 53vh;
+        opacity: 0.98;
+    }
+    .nav_ul a {
+        padding-top: 30px;
+        display: block;
+        color: #ffffff;
+    }
+    .nav_ul a:hover,
+    .nav_ul a.active {
+        background: none;
+        color: #65b91a;
+        text-decoration: double;
+    }
+    .nav_ul .albtn {
+        margin-top: 30px;
+        margin-left: -31px;
+    }
+}
+
+@media(max-width:865px) {
+    .about_us {
+        flex-direction: column;
+    }
+    .brands {
+        flex-flow: column;
+        padding: 30px;
+    }
+    .brands>div:last-child {
+        margin-top: 20px;
+    }
+    .brands>div {
+        margin: 0 auto;
+    }
+    .banner {
+        margin: 50px 0px 0px 0px;
+    }
+    .about_us {
+        margin-top: 35px !important;
+    }
+    .abtus_carousel {
+        padding-top: 30px;
+    }
+    .abtus_carousel .owl-carousel .owl-item {
+        justify-content: center;
+    }
+    .abtus_carousel .owl-carousel .owl-dots {
+        left: 0px;
+    }
+    .mymaincarousel {
+        flex-flow: column;
+        align-items: start !important;
+    }
+    .mymaincarousel>div:first-child figure {
+        max-width: 170px;
+        margin-left: 83px;
+    }
+    .mymaincarousel>div:last-child {
+        margin-top: 50px;
+    }
+    footer>div {
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+    }
+    .ftr1st>a {
+        justify-content: center;
+    }
+    .ftr2nd {
+        margin-top: 30px;
+    }
+    .ftr_social_icons {
+        justify-content: center;
+    }
+    .photogallery>div .hoveredtext>p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .hoveredtext>button.albtn {
+        padding: 4px 8px !important;
+        margin-top: 15px;
+    }
+    .photogallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    .photogallery .doublecontent {
+        display: none;
+    }
+    .mymaincarousel>div:first-child figure:before {
+        border-radius: 20px;
+    }
+}
+
+@media(max-width:745px) {
+    .brands>div {
+        max-width: 100% !important;
+    }
+    .abtus_carousel {
+        width: 100%;
+    }
+    .abtus_carousel .owl-carousel .owl-item img {
+        max-width: 100%;
+    }
+    .albtn {
+        padding: 19px 38px !important;
+    }
+    .mymaincarousel>div:first-child figure {
+        margin-left: 37px;
+    }
+    .mymaincarousel>div:last-child {
+        margin-left: 37px;
+    }
+    .row {
+        margin-top: 60px;
+        height: 65px;
+    }
+}
+
+@media(max-width:500px) {
+    .bannerreview {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bannerreview>div {
+        margin-right: 12px !important;
+        text-align: left;
+    }
+    .about_us {
+        padding: 0px 37px;
+    }
+    .photogallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    .photogallery>div:first-child,
+    .photogallery>div:nth-child(4) {
+        display: none;
+    }
+    .greendot {
+        width: 40px;
+        height: 40px;
+    }
+    .banner>div:first-child>h1 span.greendot {
+        top: 7px;
+        right: 63px !important;
+    }
+    .about_us>div:first-child h2 .greendot {
+        left: -12px;
+        top: 2px;
+    }
+    .about_us>div:first-child p {
+        margin-top: 7px;
+    }
+    .about_us>div:first-child .albtn {
+        margin-top: 15px;
+    }
+    .gallery_container {
+        margin-top: 35px;
+    }
+    .row h2 {
+        font-size: 2.22em;
+    }
+    .banner .bannerinput input {
+        padding-right: 121px !important;
+        padding: 16px 38px;
+    }
+    .banner .bannerinput .albtn {
+        padding: 5px 10px !important;
+        top: 9px;
+        right: 14px;
+    }
+    .mymaincarousel>div:last-child {
+        margin-left: 14px;
+    }
+    .mymaincarousel {
+        padding: 10px 0px 30px 0px;
+    }
+    .hoveredtext .albtn {
+        font-size: 14px;
+        border-radius: 5px !important
+    }
+    .hoveredtext p {
+        font-size: 1em;
+    }
+    .brands {
+        padding: 20px 0px 20px 0px;
+    }
+    .brands>div>div {
+        max-width: 80px;
+    }
+}
